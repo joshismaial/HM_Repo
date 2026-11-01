@@ -1,0 +1,6 @@
+{
+  "SUPABASE_URL": "https://YOUR-PROJECT-REF.supabase.co",
+  "SUPABASE_ANON_KEY": "YOUR-PUBLISHABLE-KEY",
+  "PUBLIC_APP_URL": "https://YOUR-STUDENT-WEB-URL",
+  "STUDENT_WEB": "true"
+}

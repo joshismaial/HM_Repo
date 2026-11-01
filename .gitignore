@@ -1,0 +1,21 @@
+# secrets and local settings (never commit)
+app/publish-config.txt
+app/run-config.txt
+app/dart_defines.json
+app/android/local.properties
+supabase/.temp/
+.claude/settings.local.json
+.env
+.env.*
+# build output
+build/
+.dart_tool/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+node_modules/
+apk/
+expo-prototype/
+prototype/
+app/lib/l10n/gen/

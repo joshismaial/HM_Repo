@@ -1,0 +1,62 @@
+{
+  "folders": [
+    {
+      "name": "My Hostel (HM)",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "claudeCode.useTerminal": false,
+    "deno.enablePaths": [
+      "supabase/functions"
+    ],
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.rulers": [
+        100
+      ]
+    },
+    "dart.flutterHotReloadOnSave": "all",
+    "dart.previewFlutterUiGuides": true,
+    "files.exclude": {
+      "**/.dart_tool": true,
+      "**/build": true
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart",
+        "cwd": "${workspaceFolder}/app",
+        "args": [
+          "--web-port=5555",
+          "--dart-define-from-file=dart_defines.json"
+        ],
+        "name": "My Hostel – Chrome (port 5555)",
+        "deviceId": "chrome"
+      },
+      {
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart",
+        "cwd": "${workspaceFolder}/app",
+        "args": [
+          "--dart-define-from-file=dart_defines.json"
+        ],
+        "name": "My Hostel – phone / emulator"
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "anthropic.claude-code",
+      "Dart-Code.flutter",
+      "Dart-Code.dart-code",
+      "denoland.vscode-deno",
+      "mtxr.sqltools"
+    ]
+  }
+}

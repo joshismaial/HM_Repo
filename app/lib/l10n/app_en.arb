@@ -1,0 +1,3009 @@
+{
+  "@@locale": "en",
+  "appName": "My Hostel",
+  "back": "Back",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "ok": "OK",
+  "done": "Done",
+  "save": "Save",
+  "delete": "Delete",
+  "close": "Close",
+  "copy": "Copy",
+  "copied": "Copied",
+  "tryAgain": "Try again",
+  "required": "Required",
+  "all": "All",
+  "less": "Less",
+  "more": "More",
+  "moreOptions": "More options",
+  "chooseDate": "Choose date",
+  "added": "Added",
+  "errorTitle": "Something went wrong",
+  "offlineTitle": "No internet",
+  "goHome": "Go to start",
+  "notFoundTitle": "Page not found",
+  "notFoundMessage": "This link is not correct. Scan your hostel's QR code again or ask your hostel for the link.",
+  "language": "Language",
+  "errNetwork": "Check your internet connection and try again. What you typed is saved on this phone.",
+  "errSessionInvalid": "Please verify your mobile number again to continue.",
+  "errHostelNotFound": "We couldn't find this hostel. Scan the QR code again or ask the hostel for the link.",
+  "errHostelClosed": "This hostel is not taking new students right now.",
+  "errBedTaken": "Sorry, someone else just took this bed. Please choose another one.",
+  "errHoldExpired": "Your 15-minute bed hold ran out. Please choose a bed again.",
+  "errAlreadyJoined": "You have already joined this hostel.",
+  "errDuplicateUtr": "This UTR / transaction ID was already used. Check the number in your UPI or bank app.",
+  "errUtrRequired": "Enter the UTR / transaction ID (6–30 letters or numbers) from your UPI or bank app.",
+  "errOtpWrong": "Wrong OTP. {tries} tries left.",
+  "@errOtpWrong": {
+    "placeholders": {
+      "tries": {
+        "type": "String"
+      }
+    }
+  },
+  "errOtpWrongSimple": "Wrong OTP. Please check and try again.",
+  "errOtpExpired": "This OTP has expired. Tap Resend OTP.",
+  "errOtpLocked": "Too many wrong tries. Please wait 10 minutes and try again.",
+  "errOtpRateLimit": "Too many OTP requests. Please wait a few minutes.",
+  "errBadPhone": "Enter a valid 10-digit mobile number.",
+  "errBadIdNumber": "Enter a valid ID number.",
+  "errFiles": "Add a photo of your ID and your photo (JPG or PNG, under 2 MB).",
+  "errJoiningDate": "Choose the date you joined (in the past 5 years).",
+  "errConsent": "Please tick the box to agree.",
+  "errAgreePolicy": "Please tick \"I agree\" to the refund policy.",
+  "errAmount": "Enter a valid amount.",
+  "errDate": "Choose a valid date.",
+  "errTooManyPending": "You already have payments waiting for the owner to check.",
+  "errNotActive": "This can't be done for this booking right now.",
+  "errNoBooking": "No booking found for this mobile number.",
+  "errRoomInUse": "Someone is staying in this room. Move them out first.",
+  "errBedInUse": "This bed is in use and can't be changed.",
+  "errAlreadyDecided": "This request was already handled.",
+  "errNotAllowed": "You don't have access to this.",
+  "errWrongLogin": "Wrong mobile number or password.",
+  "errAlreadyRegistered": "This mobile number already has an account. Please log in.",
+  "errWeakPassword": "Use at least 8 characters.",
+  "errOfflineBeds": "That's more beds than the room has.",
+  "errTooLong": "This text is too long.",
+  "errRoomExists": "A room with this number already exists.",
+  "errBadUpi": "Enter a valid UPI ID, e.g. name@bank.",
+  "errBadPincode": "Enter a valid 6-digit pincode.",
+  "errInvalidValue": "Please check the values you entered.",
+  "errNoPaymentOption": "Turn on at least one payment option.",
+  "errGeneric": "Something went wrong. Please try again.",
+  "ownerLoginTitle": "Owner login",
+  "ownerLoginSubtitle": "Log in with your mobile number and password.",
+  "mobileNumber": "Mobile number",
+  "password": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "passwordHint": "At least 8 characters",
+  "forgotPassword": "Forgot password?",
+  "login": "Log in",
+  "createAccount": "Create owner account",
+  "studentNote": "Student? Scan your hostel's QR code or open the link your hostel sent you.",
+  "privacyPolicy": "Privacy policy",
+  "termsOfUse": "Terms of use",
+  "privacyLegal": "Privacy & legal",
+  "signUpTitle": "Create owner account",
+  "signUpSubtitle": "We'll send one OTP to verify your number.",
+  "yourName": "Your name",
+  "agreeTerms": "I agree to the Terms of use and Privacy policy",
+  "readPolicy": "Read policy",
+  "sendOtp": "Send OTP",
+  "haveAccount": "Already have an account? Log in",
+  "verifyMobileTitle": "Verify mobile",
+  "otpSentTo": "Enter the 6-digit OTP sent to {phone}",
+  "@otpSentTo": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "otpLabel": "OTP",
+  "verifyAndContinue": "Verify & continue",
+  "resendOtp": "Resend OTP",
+  "resendIn": "Resend in {seconds}s",
+  "@resendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "otpResent": "OTP sent again",
+  "changeNumber": "Change number",
+  "forgotTitle": "Forgot password",
+  "forgotSubtitle": "We'll send an OTP to your registered mobile number.",
+  "newPasswordTitle": "Set a new password",
+  "newPassword": "New password",
+  "savePassword": "Save password",
+  "passwordSaved": "Password saved",
+  "deletionCancelled": "Welcome back! Your account deletion was cancelled.",
+  "myHostels": "My hostels",
+  "logout": "Log out",
+  "logoutConfirm": "Log out of My Hostel on this phone?",
+  "addAnotherHostel": "Add another hostel",
+  "typeMens": "Men's",
+  "typeWomens": "Women's",
+  "typeColiving": "Co-living",
+  "bedsFilled": "{filled}/{total} beds filled",
+  "@bedsFilled": {
+    "placeholders": {
+      "filled": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "finishSetup": "Finish setup",
+  "toCheckCount": "{count} to check",
+  "@toCheckCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "rentPendingCount": "Rent pending: {count}",
+  "@rentPendingCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "registerHostel": "Register hostel",
+  "hostelName": "Hostel name",
+  "hostelType": "Hostel type",
+  "address": "Address",
+  "city": "City",
+  "pincode": "Pincode",
+  "hostelContact": "Hostel contact number",
+  "hostelContactHelp": "Shown to students.",
+  "floors": "Number of floors",
+  "saveHostel": "Save hostel",
+  "saveAndAddAnotherHostel": "Save & add another hostel",
+  "hostelSaved": "Hostel saved",
+  "tabHome": "Home",
+  "tabRequests": "Requests",
+  "tabTenants": "Tenants",
+  "tabRent": "Rent",
+  "tabMore": "More",
+  "myHostelsSwitch": "My hostels · switch",
+  "occupancy": "Occupancy",
+  "collectedThisMonth": "Collected this month",
+  "rentPending": "Rent pending",
+  "tenantsCount": "{count} tenants",
+  "@tenantsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "tenants": "Tenants",
+  "leavingCount": "Leaving: {count}",
+  "@leavingCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "needsAttention": "Needs attention",
+  "paymentsToCheck": "Payments to check: {count}",
+  "@paymentsToCheck": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "joinsToApprove": "Existing tenants to approve: {count}",
+  "@joinsToApprove": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "allCaughtUp": "All caught up. Nothing needs you right now.",
+  "noTenantsTitle": "No tenants yet",
+  "noTenantsMessage": "Share your join QR code or link. Students (and tenants already living here) join from it.",
+  "setupTitle": "Finish setting up",
+  "setupDetails": "Hostel details",
+  "setupRooms": "Add rooms",
+  "setupPayment": "Payment options",
+  "setupRules": "Rent day & rules",
+  "setupInvite": "Invite students",
+  "joinQrTitle": "Join QR code & link",
+  "joinQrHelp": "Students scan this to see rooms and join. Tenants already living here use it too.",
+  "hostelClosedNote": "Not taking new students right now (Hostel settings).",
+  "copyLink": "Copy link",
+  "shareWhatsapp": "Share",
+  "inviteMessage": "Join {hostel} on My Hostel: {link}",
+  "@inviteMessage": {
+    "placeholders": {
+      "hostel": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "showBigQr": "Show big QR code",
+  "inviteStudents": "Invite students",
+  "printQrTip": "Tip: print this QR code and put it at the entrance and in each room.",
+  "noRequestsTitle": "No requests",
+  "noRequestsMessage": "New joiners' payments and existing tenants to approve will show here.",
+  "paymentsToCheckTitle": "Payments to check",
+  "existingTenantsTitle": "Existing tenants to approve",
+  "newStudent": "New student",
+  "newJoiner": "New joiner",
+  "rentPayment": "Rent",
+  "roomBed": "Room · bed",
+  "amount": "Amount",
+  "method": "Method",
+  "utrShort": "UTR",
+  "paymentNote": "Payment note",
+  "paidOn": "Paid on",
+  "checkCashHelp": "Tap Received only after you have the cash.",
+  "checkBankHelp": "Check your bank / UPI app for this amount, UTR and payment note before tapping Received.",
+  "rejectPaymentTitle": "Money not received?",
+  "rejectPaymentMessage": "The student will be asked to pay again. Their bed stays held for 1 day.",
+  "notReceived": "Not received",
+  "received": "Received",
+  "paymentRejected": "Marked as not received",
+  "partPaymentSaved": "Saved as a part-payment. The rest stays pending.",
+  "paymentConfirmed": "Payment confirmed",
+  "amountReceivedTitle": "How much did you receive?",
+  "amountReceived": "Amount received",
+  "partPaymentHelp": "If it's less than the bill, it's saved as a part-payment and the rest stays pending.",
+  "existingTenant": "Existing tenant",
+  "existingSummary": "Joined on {date} · Room {room}",
+  "@existingSummary": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "rentPerMonth": "Rent / month",
+  "existingHelp": "Check their ID and joining date. Their next rent is due on the next rent day; record past payments with Record payment.",
+  "viewDetailsAndId": "View details & ID",
+  "rejectJoinTitle": "Reject this request?",
+  "rejectJoinMessage": "The bed will be freed.",
+  "reject": "Reject",
+  "approve": "Approve",
+  "requestRejected": "Request rejected",
+  "tenantApproved": "Tenant approved",
+  "statusActive": "Living",
+  "statusNotice": "Leaving",
+  "statusPending": "Waiting",
+  "statusAwaitingPayment": "Not paid",
+  "statusVacated": "Left",
+  "statusRejected": "Rejected",
+  "statusExpired": "Expired",
+  "statusDraft": "Draft",
+  "filterLiving": "Living",
+  "filterLeaving": "Leaving",
+  "filterPending": "Waiting",
+  "filterLeft": "Left",
+  "searchTenants": "Search name, mobile or room",
+  "noResults": "No match",
+  "noResultsMessage": "Try another name, number or room.",
+  "room": "Room",
+  "joinedOn": "Joined {date}",
+  "@joinedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "leavesOn": "Leaves {date}",
+  "@leavesOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "tenantDetails": "Tenant details",
+  "noticeBanner": "Leaving on {leavingDate} (notice given {givenOn})",
+  "@noticeBanner": {
+    "placeholders": {
+      "leavingDate": {
+        "type": "String"
+      },
+      "givenOn": {
+        "type": "String"
+      }
+    }
+  },
+  "vacatedBanner": "Left on {date}. Deposit refund: {refund}",
+  "@vacatedBanner": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "refund": {
+        "type": "String"
+      }
+    }
+  },
+  "call": "Call",
+  "whatsapp": "WhatsApp",
+  "stay": "Stay",
+  "sharing": "Sharing",
+  "sharingN": "{count}-sharing",
+  "@sharingN": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "joiningDate": "Joining date",
+  "joinedAs": "Joined as",
+  "deposit": "Deposit",
+  "balance": "Bills & balance",
+  "recordPayment": "Record payment",
+  "dueNow": "Due now",
+  "noBills": "No bills yet.",
+  "payments": "Payments",
+  "noPayments": "No payments yet.",
+  "contactAndAddress": "Contact & address",
+  "parentPhone": "Parent's mobile",
+  "referencePhone": "Reference mobile",
+  "homeAddress": "Home address",
+  "officeAddress": "Office / college address",
+  "resetStudentLink": "Reset student link",
+  "resetLinkMessage": "A new private link is made and the old one stops working. Send the new link by SMS?",
+  "resetOnly": "Reset only",
+  "resetAndSms": "Reset & send SMS",
+  "newLinkTitle": "New student link",
+  "markVacated": "Mark as vacated",
+  "depositPaid": "Deposit paid",
+  "vacateHelp": "The bed becomes free and future bills are cancelled. The deposit is refunded only if the tenant gave enough notice.",
+  "noNoticeWarning": "No notice was given, so the deposit is not refunded.",
+  "deductions": "Deductions",
+  "deductionsHelp": "Damage, unpaid bills, etc. Taken from the refund.",
+  "vacatedTitle": "Marked as vacated",
+  "refundToPay": "Refund to pay the tenant: {amount}",
+  "@refundToPay": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "depositForfeited": "Not enough notice. Deposit kept: {amount}",
+  "@depositForfeited": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "idAadhaar": "Aadhaar",
+  "idPassport": "Passport",
+  "idDrivingLicence": "Driving licence",
+  "idProof": "ID proof",
+  "idType": "ID type",
+  "idNumber": "ID number",
+  "onlyMaskedGiven": "Only a masked number was given",
+  "reveal": "Reveal",
+  "revealLogged": "Every Reveal is recorded.",
+  "filesDeleted": "ID copy and photo were deleted 3 months after the tenant left.",
+  "viewIdCopy": "View ID copy",
+  "billPaid": "Paid",
+  "billPartial": "Part paid",
+  "billCancelled": "Cancelled",
+  "billUnpaid": "Unpaid",
+  "dueOn": "Due {date}",
+  "@dueOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "paidAmount": "Paid {amount}",
+  "@paidAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "securityDeposit": "Security deposit",
+  "rentPeriod": "Rent {start} – {end}",
+  "@rentPeriod": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "rent": "Rent",
+  "payReceived": "Received",
+  "payRejected": "Not received",
+  "payPending": "Checking",
+  "methodUpi": "UPI",
+  "methodBank": "Bank transfer",
+  "methodCash": "Cash",
+  "methodCheque": "Cheque",
+  "methodOnline": "Online",
+  "oldestFirstHelp": "Applied to the oldest unpaid bill first. Less than the bill is saved as a part-payment.",
+  "noteOptional": "Note (optional)",
+  "receiptOnStudentPage": "The receipt shows on the student's private page.",
+  "paymentRecorded": "Payment recorded",
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+  "collected": "Collected",
+  "ofBilled": "of {amount} billed",
+  "@ofBilled": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "pendingRent": "Pending ({count})",
+  "@pendingRent": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "noPendingTitle": "Everyone has paid",
+  "noPendingMessage": "No rent is pending right now.",
+  "dueToday": "Due today",
+  "daysLate": "{days} days late",
+  "@daysLate": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "sendReminder": "Send WhatsApp reminder",
+  "record": "Record",
+  "reminderMessage": "Hi {name}, your rent of {amount} at {hostel} is due. Please pay from your My Hostel link. Thank you!",
+  "@reminderMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "hostel": {
+        "type": "String"
+      }
+    }
+  },
+  "owner": "Owner",
+  "switchHostel": "Switch",
+  "manage": "Manage",
+  "roomsOccupancy": "Rooms & occupancy",
+  "addRoom": "Add room",
+  "leavingNotices": "Leaving notices",
+  "hostel": "Hostel",
+  "hostelSettings": "Hostel settings",
+  "settings": "Settings",
+  "account": "Account",
+  "helpSupport": "Help & support",
+  "deleteAccount": "Delete account",
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoomsTitle": "No rooms yet",
+  "noRoomsMessage": "Add your rooms and beds so students can choose one.",
+  "groundFloor": "Ground floor",
+  "floorN": "Floor {n}",
+  "@floorN": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "bedFree": "Free",
+  "bedHeld": "On hold",
+  "bedLiving": "Living",
+  "bedOffline": "Not on app",
+  "perMonthShort": "/month",
+  "editRent": "Change rent / deposit",
+  "deleteRoom": "Delete room",
+  "deleteRoomMessage": "Delete this room and its beds? This can't be undone.",
+  "bed": "Bed",
+  "markOfflineMessage": "Mark this bed as used by a tenant who isn't on the app yet? They can still pick it when they join.",
+  "markFreeMessage": "Mark this bed as free?",
+  "markOffline": "Mark used",
+  "markFree": "Mark free",
+  "rentPerBed": "Rent per bed / month",
+  "rentChangeHelp": "New rent applies to students who join from now on.",
+  "featAc": "AC",
+  "featAttachedBath": "Attached bathroom",
+  "featBalcony": "Balcony",
+  "featGeyser": "Geyser",
+  "featCupboard": "Cupboard",
+  "featStudyTable": "Study table",
+  "amenWifi": "Wi-Fi",
+  "amenFood": "Food",
+  "amenLaundry": "Laundry",
+  "amenHousekeeping": "Housekeeping",
+  "amenPowerBackup": "Power backup",
+  "amenCctv": "CCTV",
+  "amenParking": "Parking",
+  "amenRoWater": "RO water",
+  "amenGym": "Gym",
+  "amenTv": "TV",
+  "roomNumber": "Room number",
+  "floor": "Floor",
+  "groundFloorHint": "0 = ground floor",
+  "sharingBeds": "Sharing (beds in room)",
+  "roomFeatures": "Room features",
+  "offlineBedsTitle": "Beds already used",
+  "offlineBedsHelp": "Beds used by tenants who are not on the app yet. They can still pick their bed when they join.",
+  "offlineBedsCount": "{count} of {total} beds",
+  "@offlineBedsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "saveRoom": "Save room",
+  "saveAndAddAnotherRoom": "Save & add another room",
+  "roomSaved": "Room {room} saved",
+  "@roomSaved": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "acceptingStudents": "Taking new students",
+  "acceptingStudentsHelp": "Turn off when the hostel is full.",
+  "hostelDetails": "Hostel details",
+  "rentDay": "Rent day",
+  "rentDaySameAsJoining": "Same as joining date",
+  "rentDaySameAsJoiningHelp": "Each student pays on the date they joined.",
+  "rentDayFixed": "Fixed day",
+  "rentDayFixedHelp": "Everyone pays on the same day. Mid-month joiners pay per day up to it.",
+  "rentDayOfMonth": "Day of the month",
+  "dayOfMonth": "Day {day}",
+  "@dayOfMonth": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "noticePeriod": "Notice period",
+  "noNotice": "No notice",
+  "daysN": "{days} days",
+  "@daysN": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "refundPolicyPreview": "Students see: no refund of the deposit or that month's rent if they leave without {days} days' notice.",
+  "@refundPolicyPreview": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentOptions": "Payment options",
+  "upiSettingHelp": "Students' UPI app opens with the amount and payment note filled in.",
+  "upiId": "UPI ID",
+  "businessUpiTip": "A business / merchant UPI ID is recommended for rent collection.",
+  "upiPayeeName": "Name shown in UPI app",
+  "bankDetails": "Bank details",
+  "bankDetailsHint": "Account name, account number, IFSC, bank",
+  "cashNoteLabel": "Cash instructions (optional)",
+  "cashNoteHint": "e.g. Pay at the office, 9 AM–7 PM",
+  "amenities": "Amenities",
+  "houseRules": "House rules",
+  "houseRulesHint": "e.g. Gate closes at 10:30 PM. No visitors after 8 PM.",
+  "joinCode": "Join code",
+  "saveSettings": "Save settings",
+  "settingsSaved": "Settings saved",
+  "deleteWarning": "This deletes your owner account and all your hostels. It can't be undone after 7 days.",
+  "whatIsDeleted": "What is deleted",
+  "whatIsDeletedList": "• All your hostels, rooms and settings\n• All tenants' details, ID proofs and photos\n• Join links and students' private links\nStudents are told by SMS 30 days before they lose access.",
+  "whatIsKept": "What is kept",
+  "whatIsKeptText": "Payment records are kept only as long as the law requires.",
+  "reasonOptional": "Why are you leaving? (optional)",
+  "typeDelete": "Type DELETE to confirm",
+  "deleteMyAccount": "Delete my account",
+  "deletionRequestedTitle": "Deletion requested",
+  "deletionRequestedText": "Your account will be deleted in 7 days. Log in before then to cancel.",
+  "legalDraftNote": "Draft – to be reviewed by a lawyer before launch.",
+  "ppCollectTitle": "What we collect",
+  "ppCollectText": "Owners: name, mobile number, hostel details, rooms, payment settings. Students: name, mobile number, parent and reference numbers, ID proof (type, number and a copy), photo, home and office/college address, joining date, bills and payments (amount, method, UTR).",
+  "ppWhyTitle": "Why we collect it",
+  "ppWhyText": "To let hostels register students, keep a record of who stays where, collect rent and confirm payments, and meet legal duties such as tenant verification.",
+  "ppWhoTitle": "Who can see it",
+  "ppWhoText": "Only the owner of the hostel you join (and staff they allow). We don't sell your data. Service providers that run the app (hosting, SMS) process it only for us.",
+  "ppProtectTitle": "How we protect it",
+  "ppProtectText": "Data is encrypted in transit. ID numbers are stored encrypted and shown masked (last 4 digits); owners must tap Reveal, which is recorded. ID copies and photos are kept in a separate private store and opened only with short-lived links.",
+  "ppKeepTitle": "How long we keep it",
+  "ppKeepText": "ID copies and photos are deleted 3 months after a tenant leaves. Payment records are kept for [X] years as required by law. Owner accounts are deleted 7 days after a deletion request.",
+  "ppRightsTitle": "Your rights (DPDP Act, 2023)",
+  "ppRightsText": "You can ask to see, correct or delete your data, withdraw consent, and nominate someone. Students can use \"Request my data deletion\" on their page. We reply within [X] days.",
+  "ppGrievanceTitle": "Grievance officer",
+  "ppGrievanceText": "[Name], [E-mail], [Address]. Last updated: [DATE].",
+  "tmUseTitle": "Using My Hostel",
+  "tmUseText": "My Hostel helps hostel owners manage rooms, tenants and rent, and lets students join a hostel and pay rent. Use it lawfully and give true information.",
+  "tmOwnerTitle": "Owners",
+  "tmOwnerText": "Owners are responsible for their hostel, prices, house rules, refunds and for handling tenants' data lawfully. Keep your password safe.",
+  "tmStudentTitle": "Students",
+  "tmStudentText": "Students must give correct details and real ID proofs. Your private link is like a key – don't share it.",
+  "tmPaymentsTitle": "Payments",
+  "tmPaymentsText": "Payments go directly to the hostel owner. My Hostel does not hold money. Refunds follow the hostel's notice and refund policy shown before payment.",
+  "tmLiabilityTitle": "Limits",
+  "tmLiabilityText": "My Hostel is provided as is. We are not a party to the stay agreement between owner and student. Governing law: India. Courts at [City].",
+  "stepOf": "Step {step} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "verifySubtitle": "Verify your mobile number to see rooms and prices.",
+  "findBookingSubtitle": "Already joined? Verify your mobile to open your booking.",
+  "findMyBooking": "Find my booking",
+  "hostelClosedStudent": "This hostel is not taking new students right now. If you already live here, you can still verify.",
+  "agreeByContinuing": "By continuing you agree to our",
+  "hostelClosedShort": "Not taking students now",
+  "viewAvailableRooms": "View available rooms",
+  "rentFrom": "Rent from",
+  "sharingRange": "{min} to {max} sharing",
+  "@sharingRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "freeBeds": "Free beds",
+  "contactOwner": "Contact owner",
+  "rentDayJoiningText": "Same date as your joining date, every month",
+  "rentDayFixedText": "Day {day} of every month",
+  "@rentDayFixedText": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "availableRooms": "Available rooms",
+  "pickABed": "Pick a bed",
+  "holdBed": "Hold this bed & enter my details",
+  "continueWithBed": "Continue with bed {bed}",
+  "@continueWithBed": {
+    "placeholders": {
+      "bed": {
+        "type": "String"
+      }
+    }
+  },
+  "holdInfo": "The bed is held for you for 15 minutes while you fill in your details and pay.",
+  "noRoomsStudent": "No rooms are listed yet. Please contact the hostel.",
+  "depositAmount": "Deposit {amount}",
+  "@depositAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "roomFull": "This room is full.",
+  "offlineBedStudent": "Choose this bed only if you already live in it. You'll be asked for your joining date.",
+  "bedYours": "Held for you",
+  "bedIStayHere": "I stay here",
+  "bedTaken": "Taken",
+  "verifyAgainTitle": "Verify again",
+  "alreadyJoinedTitle": "Already joined",
+  "openMyStay": "Open my stay",
+  "yourDetails": "Your details",
+  "joining": "Joining",
+  "alreadyStaying": "Already staying here",
+  "whenDidYouJoin": "When did you join?",
+  "existingStudentHelp": "You'll skip payment now. The owner checks and approves; your next rent is due on the next rent day.",
+  "aboutYou": "About you",
+  "fullName": "Full name",
+  "mobileVerified": "Mobile (verified)",
+  "referencePhoneOptional": "Reference mobile (optional)",
+  "aadhaarHelp": "Give a masked Aadhaar (only the last 4 digits visible, e.g. XXXXXXXX1234) or the full 12-digit number. It's stored encrypted.",
+  "maskedAadhaarCopy": "Masked Aadhaar copy",
+  "idCopy": "ID copy",
+  "yourPhoto": "Your photo",
+  "photosPrivate": "Only the hostel owner can see these. They're deleted 3 months after you leave.",
+  "officeAddressOptional": "Office / college address (optional)",
+  "dpdpConsent": "I agree that the hostel may keep and use these details to manage my stay, as explained in the Privacy policy (DPDP Act, 2023).",
+  "sendForApproval": "Send to owner for approval",
+  "continueToPayment": "Continue to payment",
+  "takePhoto": "Take photo",
+  "chooseFromGallery": "Choose from gallery",
+  "bedHeldFor": "Bed held for you: {time} left",
+  "@bedHeldFor": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "holdExpiredShort": "Your bed hold ran out.",
+  "bedLostTitle": "This bed is no longer held",
+  "bedLostMessage": "You were not charged. Your details are kept – choose another bed to continue.",
+  "seeAllRooms": "See all rooms",
+  "stayAndPayment": "Stay & payment",
+  "stayType": "Stay type",
+  "monthly": "Monthly",
+  "rentProrated": "Rent {start} – {end} (per day)",
+  "@rentProrated": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "totalToPay": "Total to pay",
+  "yourRentDay": "Your rent day",
+  "proratedHelp": "First rent is per day (monthly rent ÷ 30 × days) up to the rent day, then full months.",
+  "refundPolicy": "No refund of the security deposit or that month's rent if you leave without informing at least {days} days before.",
+  "@refundPolicy": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "iAgree": "I agree",
+  "howToPay": "How do you want to pay?",
+  "noPaymentMethods": "This hostel hasn't set up payment options yet. Please contact the owner.",
+  "iHavePaid": "I have paid – send to owner",
+  "payCashSend": "I'll pay cash – send to owner",
+  "ownerWillConfirm": "The owner checks the payment and confirms. You'll get an SMS.",
+  "payInUpiApp": "Pay {amount} in UPI app",
+  "@payInUpiApp": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "noUpiApp": "No UPI app found. Scan the QR code from another phone, or use the UPI ID.",
+  "orScanQr": "or scan this QR code",
+  "upiNoteHelp": "The payment note helps the owner find your payment. After paying, copy the UTR from your UPI app.",
+  "bankNoteHelp": "Add the payment note in the remarks. After paying, enter the UTR below.",
+  "cashHelp": "Pay {amount} in cash to the owner. They'll confirm it in the app.",
+  "@cashHelp": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "utrLabel": "UTR / transaction ID",
+  "utrHelp": "12 digits for UPI, found in your UPI app under payment details.",
+  "sentForApprovalTitle": "Sent to owner",
+  "sentForApprovalText": "The owner will check your details and approve. You'll get an SMS.",
+  "paymentSentTitle": "Payment sent to owner",
+  "paymentSentText": "We've told the owner about your payment of {amount}. Your bed is kept while they check it.",
+  "@paymentSentText": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "privateLinkSent": "We've sent your private link by SMS. Bookmark it to see your stay, bills and receipts any time – no login needed.",
+  "linkNotWorkingTitle": "This link doesn't work",
+  "linkNotWorkingText": "It may have been reset by your hostel. Scan your hostel's QR code and verify your mobile to get back in.",
+  "myStay": "My stay",
+  "payRent": "Pay rent",
+  "callOwner": "Call owner",
+  "waitingApproval": "Waiting for the owner to approve your joining.",
+  "waitingPaymentCheck": "Payment sent. Waiting for the owner to confirm.",
+  "youLeaveOn": "You're leaving on {date}.",
+  "@youLeaveOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "youHaveLeft": "You have left this hostel. Your receipts stay here for 3 months.",
+  "stayActive": "You're staying here.",
+  "yourBill": "Your bill",
+  "paymentsBeingChecked": "{amount} being checked by the owner",
+  "@paymentsBeingChecked": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "payAmountNow": "Pay {amount} now",
+  "@payAmountNow": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "receipts": "Receipts",
+  "giveNotice": "Give notice",
+  "chooseLeavingDate": "Choose your leaving date",
+  "leavingOn": "Leaving on {date}",
+  "@leavingOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "shortNoticeWarning": "This is less than {days} days' notice. You may lose your deposit and that month's rent.",
+  "@shortNoticeWarning": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "enoughNotice": "You're giving enough notice.",
+  "sendNotice": "Send notice",
+  "noticeSent": "Notice sent to owner",
+  "bookmarkTip": "Bookmark this page or \"Add to home screen\" to open it like an app.",
+  "requestDataDeletion": "Request my data deletion",
+  "dataDeletionSubject": "Data deletion request",
+  "payAfterConfirm": "You can pay rent here once the owner confirms your joining.",
+  "amountToPay": "Amount",
+  "paymentSentShort": "Payment sent to owner",
+  "greetingHi": "Hi {name}",
+  "@greetingHi": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "statFilled": "Filled",
+  "statAlerts": "Alerts",
+  "addPhoto": "Add photo",
+  "runAnotherHostelTitle": "Run another hostel?",
+  "runAnotherHostelBody": "Add it here and see beds, rent and alerts for all your hostels on one screen.",
+  "anotherHostelTitle": "Another hostel?",
+  "anotherHostelBody": "Add it in a minute.",
+  "addHostelShort": "Add hostel",
+  "removeHostel": "Remove hostel",
+  "removeHostelTitle": "Remove {name}?",
+  "@removeHostelTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removeHostelBody": "It will be hidden from My hostels and stop taking new joins. Tenants, rooms and payment history are kept.",
+  "keepIt": "Keep it",
+  "hostelRemoved": "{name} removed",
+  "@hostelRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removeB1": "Hidden from My hostels. No new joins.",
+  "removeB2": "No new rent bills or reminders while removed.",
+  "removeB3": "Tenants, rooms and payments are kept.",
+  "removeB4": "You can restore it any time from Removed hostels.",
+  "removeTenantsWarn": "{count} tenants still live here. They stay in your records, but rent bills stop while it is removed.",
+  "@removeTenantsWarn": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "removedHostels": "Removed hostels",
+  "removedHostelsCount": "Removed hostels ({count})",
+  "@removedHostelsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreRemovedHostel": "Restore a removed hostel ({count})",
+  "@restoreRemovedHostel": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreHostel": "Restore hostel",
+  "restoreHostelTitle": "Restore {name}?",
+  "@restoreHostelTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreShows": "Shows in My hostels again.",
+  "restoreJoinsOpen": "Join link opens for new students.",
+  "restoreBillsResume": "Rent bills and reminders resume.",
+  "hostelRestored": "{name} restored",
+  "@hostelRestored": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removedMeta": "Removed {date} · {count} tenants",
+  "@removedMeta": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "noRemovedTitle": "No removed hostels",
+  "noRemovedBody": "Hostels you remove show here. You can restore them any time.",
+  "removedKeepsData": "Removed hostels keep all their data.",
+  "tenantsStudentsList": "Tenants/Students List",
+  "switchShort": "Switch",
+  "openForJoins": "Open for joins",
+  "closedForJoins": "Closed for joins",
+  "bedsFilledTitle": "Beds filled",
+  "legendFilled": "{count} Filled",
+  "@legendFilled": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "legendHeld": "{count} On hold",
+  "@legendHeld": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "legendFree": "{count} Free",
+  "@legendFree": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "rentMonthShort": "Rent · {month}",
+  "@rentMonthShort": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "stillToPay": "{count} still to pay",
+  "@stillToPay": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "requestsSub": "{pay} pay · {joins} joins",
+  "@requestsSub": {
+    "placeholders": {
+      "pay": {
+        "type": "String"
+      },
+      "joins": {
+        "type": "String"
+      }
+    }
+  },
+  "stayingNow": "Staying now",
+  "readyToFill": "Ready to fill",
+  "noticeGiven": "Notice given",
+  "inviteCardText": "Students scan this QR or open your link to join",
+  "shareLink": "Share link",
+  "poster": "Poster",
+  "bedsTotal": "Beds · {count} total",
+  "@bedsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "percentFull": "{pct}% full",
+  "@percentFull": {
+    "placeholders": {
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "collectedOf": "collected of {amount}",
+  "@collectedOf": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "todaysPendingFee": "Today's pending fee · {date}",
+  "@todaysPendingFee": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "seeAll": "See all",
+  "paidOfTotal": "{paid} of {total} paid",
+  "@paidOfTotal": {
+    "placeholders": {
+      "paid": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tenantsDueToday": "{count} due today",
+  "@tenantsDueToday": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "allPaidToday": "All paid today",
+  "tabRooms": "Rooms",
+  "searchRoomNumber": "Search room number",
+  "allFloors": "All floors",
+  "roomsAvailable": "Available",
+  "roomsFull": "Occupied",
+  "roomsCount": "{count} rooms",
+  "@roomsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoomsMatch": "No rooms match. Try another floor, filter or room number.",
+  "bedsFreeN": "{count} free",
+  "@bedsFreeN": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roomFullShort": "Full",
+  "downloadQr": "Download QR code",
+  "downloadShort": "Download",
+  "qrSaved": "QR code saved to your gallery",
+  "qrSaveFailed": "Couldn't save the QR code. Allow photo access and try again.",
+  "availableBeds": "Available beds",
+  "inRoomsCount": "In {count} rooms",
+  "@inRoomsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "freeBedsInRooms": "{beds} free beds in {rooms} rooms",
+  "@freeBedsInRooms": {
+    "placeholders": {
+      "beds": {
+        "type": "String"
+      },
+      "rooms": {
+        "type": "String"
+      }
+    }
+  },
+  "filledBedsInRooms": "{beds} beds filled in {rooms} rooms",
+  "@filledBedsInRooms": {
+    "placeholders": {
+      "beds": {
+        "type": "String"
+      },
+      "rooms": {
+        "type": "String"
+      }
+    }
+  },
+  "bookShort": "Book",
+  "bookBedTitle": "Book Room {room} · Bed {bed}",
+  "@bookBedTitle": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      }
+    }
+  },
+  "firstMonthRent": "Rent (first month)",
+  "paymentMethod": "Payment method",
+  "proceedToPayment": "Proceed to payment · {amount}",
+  "@proceedToPayment": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingNote": "The student gets a WhatsApp message with your join link and the amount. The bed is theirs once they finish joining and pay.",
+  "bookMessage": "Hi {name}, your bed at {hostel} is ready: Room {room} · Bed {bed}. Amount: {amount} (pay by {method}). Finish joining and pay here: {link}",
+  "@bookMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "hostel": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "method": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "errStudentName": "Enter the student's name.",
+  "notOnAppYet": "Tenant not on app yet",
+  "allSharing": "All sharing",
+  "manageRooms": "Rooms & beds",
+  "manageRoomsHelp": "See every room and bed, change rent, delete a room",
+  "bedsFreeLabel": "beds free",
+  "roomsWithVacancy": "rooms with vacancy",
+  "occupiedLabel": "occupied",
+  "sharingLabel": "Sharing",
+  "tapBedToBook": "Tap a bed to book",
+  "noFreeBedsTitle": "No free beds",
+  "noFreeBedsMessage": "Every bed here is filled or on hold. Add rooms in Hostel settings.",
+  "toPayNow": "To pay now",
+  "shareWithStudent": "Share with student",
+  "askStudentToScan": "Ask the student to scan",
+  "askStudentToScanHelp": "They fill details, accept house rules and pay. You approve.",
+  "bookingHoldEnded": "Hold ended. Hold the bed again to show a new QR.",
+  "holdAgain": "Hold again",
+  "whatsappLink": "WhatsApp link",
+  "cancelBooking": "Cancel booking",
+  "bookBedShareMessage": "{hostel}: Room {room} · Bed {bed} is held for you. Fill your details and pay {amount} here: {link}",
+  "@bookBedShareMessage": {
+    "placeholders": {
+      "hostel": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "tapBookToShareQr": "Tap Book to share QR",
+  "sharingShortN": "{n} sh",
+  "@sharingShortN": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "errBookingExpired": "This booking link has expired. Ask the hostel to share a new QR.",
+  "errBookingLinkInvalid": "This booking link isn't valid. Ask the hostel to share a new QR.",
+  "errParentPhoneRequired": "Enter your parent's mobile number.",
+  "errIdCopyRequired": "Add a photo of your Aadhaar / ID.",
+  "errAcceptRules": "Accept the hostel terms and house rules to continue.",
+  "parentPhoneRequired": "Parent's mobile",
+  "orgName": "Company / institute name",
+  "orgNameHelp": "Where you work or study",
+  "orgAddressOptional": "Company / institute address (optional)",
+  "orgShort": "Company / institute",
+  "orgAddressShort": "Company / institute address",
+  "profilePhotoOptional": "Profile photo (optional)",
+  "noticeRule": "Give {days} days' notice before leaving. Without notice, the deposit and that month's rent are not refunded.",
+  "@noticeRule": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "acceptHostelTerms": "I accept the hostel terms & house rules",
+  "nextRentDue": "Next rent due",
+  "referencePhoneShort": "Reference mobile",
+  "approvedWelcome": "Approved · Welcome! Your stay has started.",
+  "roomSavedBeds": "Room {room} saved · {beds} beds added",
+  "@roomSavedBeds": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "beds": {
+        "type": "String"
+      }
+    }
+  },
+  "roomSection": "Room",
+  "feesSection": "Fees",
+  "depositMonthly": "Deposit (monthly)",
+  "perDayRentOptional": "Per-day rent",
+  "depositDaywise": "Deposit (day-wise)",
+  "afterSaveBackToSettings": "After saving you go back to Hostel settings",
+  "totalBeds": "Total beds",
+  "occupiedBeds": "Occupied",
+  "floorsLabel": "Floors",
+  "scrollRoomsHint": "Scroll the list to see all {count} rooms",
+  "@scrollRoomsHint": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "newBadge": "New",
+  "rentDayFixedEveryone": "Fixed day for everyone",
+  "everyonePaysOnDay": "Everyone pays on day {day} of the month",
+  "@everyonePaysOnDay": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "rentDayFixedShortHelp": "All tenants pay on the same day",
+  "dayShort": "Day",
+  "errRentDayRange": "Enter a day from 1 to 28.",
+  "rentDaySmsNote": "Tenants get an SMS when the rent day changes.",
+  "reports": "Reports",
+  "rentReport": "Rent report",
+  "studentsList": "Students list",
+  "monthWise": "Month-wise",
+  "yearWise": "Year-wise",
+  "previous": "Previous",
+  "next": "Next",
+  "collectedLabel": "Collected",
+  "expectedLabel": "Expected",
+  "pendingLabel": "Pending",
+  "paidLabel": "Paid",
+  "monthLabel": "Month",
+  "tapMonthHint": "Tap a month to open its month-wise report",
+  "studentsCount": "{count} students",
+  "@studentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "noReportRows": "Nothing for this period.",
+  "notPaidYet": "not paid yet",
+  "joinedLabel": "Joined",
+  "leftLabel": "Left",
+  "stayingLabel": "Staying",
+  "leftOn": "Left {date}",
+  "@leftOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadReport": "Download report",
+  "reportLabel": "Report",
+  "periodLabel": "Period",
+  "monthShortLabel": "month",
+  "wholeYear": "whole year",
+  "fileTypeLabel": "File type",
+  "excelForAccounts": "Excel · for accounts",
+  "pdfToPrint": "To print or share",
+  "downloadExcel": "Download Excel",
+  "downloadPdf": "Download PDF",
+  "reportShareNote": "Saved on this phone · Share opens so you can send it on WhatsApp or email, or save it to Files",
+  "recentDownloads": "Recent downloads",
+  "shareShort": "Share",
+  "reportSaved": "{name} saved",
+  "@reportSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadNamed": "Download {name}",
+  "@downloadNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "excelFile": "Excel file",
+  "excelFileHelp": "Open in Excel or Google Sheets",
+  "pdfFile": "PDF file",
+  "pdfFileHelp": "Print or send on WhatsApp",
+  "stillToPayLabel": "Still to pay",
+  "lateNowLabel": "Late now",
+  "nPaid": "{count} paid",
+  "@nPaid": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "rentOfTotal": "{collected} of {total} · {pct}%",
+  "@rentOfTotal": {
+    "placeholders": {
+      "collected": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "String"
+      }
+    }
+  },
+  "todayDate": "Today · {date}",
+  "@todayDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "autoRemindTitle": "Auto-remind",
+  "autoRemindHelp": "3 days before & on rent day",
+  "filterLate": "Late",
+  "filterDue": "Due",
+  "filterUpcoming": "Upcoming",
+  "filterCount": "{label} {count}",
+  "@filterCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "paidOnVia": "Paid {date} · {method}",
+  "@paidOnVia": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "method": {
+        "type": "String"
+      }
+    }
+  },
+  "paidPlain": "Paid",
+  "tapTenantHint": "Tap a tenant to record payment or send reminder",
+  "sendReminderAll": "Send reminder to all · {count} unpaid",
+  "@sendReminderAll": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "remindAllTitle": "Remind {count} tenants?",
+  "@remindAllTitle": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "remindAllMessage": "Each gets an SMS with the amount, due date and your hostel name. Tenants reminded in the last 12 hours are skipped.",
+  "sendReminders": "Send reminders",
+  "remindersSent": "Reminders sent: {count}",
+  "@remindersSent": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "remindersNone": "Everyone was reminded recently.",
+  "openTenant": "Open tenant details",
+  "chooseMonth": "Choose month",
+  "noRentRows": "No rent bills for this month.",
+  "lateFeeTitle": "Late fee",
+  "lateFeePerDay": "{amount} per day",
+  "@lateFeePerDay": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "lateFeeOff": "Off · no late fee charged",
+  "lateFeeEdit": "{amount}/day",
+  "@lateFeeEdit": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "lateFeeSheetHelp": "Charged for every day after the rent day until paid",
+  "chargeLateFee": "Charge late fee",
+  "amountPerDay": "Amount per day",
+  "perDayShort": "per day",
+  "lateFeeExample": "Example: rent {rent}, paid {days} days late → {days} × {per} = {fee} fee · total {total}",
+  "@lateFeeExample": {
+    "placeholders": {
+      "rent": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "per": {
+        "type": "String"
+      },
+      "fee": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "rentPlusFee": "{rent} + {fee} fee",
+  "@rentPlusFee": {
+    "placeholders": {
+      "rent": {
+        "type": "String"
+      },
+      "fee": {
+        "type": "String"
+      }
+    }
+  },
+  "rentDueLabel": "Rent due",
+  "lateFeeDaysTimes": "Late fee · {days} days × {amount}",
+  "@lateFeeDaysTimes": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "totalPayable": "Total payable",
+  "lateFeeStopsNote": "Late fee stops on the payment date.",
+  "waiveLateFee": "Waive late fee",
+  "waiveLateFeeHelp": "Don't charge the late fee for this payment",
+  "studentLateFee": "Late fee ({days} days × {amount})",
+  "@studentLateFee": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "lateFeeSaved": "Late fee saved",
+  "occupiedPctLabel": "occupied %",
+  "loggedInLabel": "Logged in",
+  "welcomeName": "Welcome, {name}",
+  "@welcomeName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomePlain": "Welcome",
+  "openingMyHostels": "Opening My hostels",
+  "sharedWithOwnerOnly": "Shared only with your hostel owner",
+  "sectionParent": "Parent / guardian",
+  "parentName": "Parent name",
+  "sectionReference": "Reference",
+  "referenceNameOptional": "Reference name (optional)",
+  "referenceName": "Reference name",
+  "sectionOrg": "College / company",
+  "aadhaarNumber": "Aadhaar number",
+  "useAnotherId": "No Aadhaar? Use another ID",
+  "sectionIdCard": "ID card",
+  "uploadAadhaarPhoto": "Upload Aadhaar card photo",
+  "uploadIdPhoto": "Upload ID card photo",
+  "uploadAadhaarHelp": "Front side · masked copy is fine",
+  "photoAddedTapToChange": "Photo added · tap to change",
+  "reviewDetails": "Review details",
+  "fillAllRequired": "Fill all * fields to continue",
+  "viewIdCard": "View Aadhaar card",
+  "viewOtherIdCard": "View ID card",
+  "tapPenToEdit": "Tap the pen to edit",
+  "saveContinuePayment": "Save & continue to payment",
+  "mobileShort": "Mobile",
+  "addressShort": "Address",
+  "rulesAccepted": "House rules accepted",
+  "reviewStep": "Review",
+  "errParentNameRequired": "Enter your parent's name.",
+  "editDetails": "Edit details",
+  "getTheApp": "Get the My Hostel app",
+  "getTheAppSub": "Free · Google Play",
+  "stepInstall": "Install the app",
+  "stepOpensOnBed": "It opens on this bed",
+  "stepOpensHostel": "It opens this hostel",
+  "stepVerifyPay": "Verify, add details & pay",
+  "holdStartsOnOpen": "Your bed is kept for you. The 15-minute timer starts when you open the app.",
+  "getAppToJoin": "Join this hostel in the My Hostel app",
+  "bedReadyTitle": "Your bed is ready",
+  "openedFromQr": "Opened from {hostel}'s QR",
+  "@openedFromQr": {
+    "placeholders": {
+      "hostel": {
+        "type": "String"
+      }
+    }
+  },
+  "nextHeading": "Next",
+  "nextVerify": "Verify your mobile (one OTP)",
+  "nextDetails": "Your details & house rules",
+  "nextPay": "Pay · owner approves",
+  "continueBtn": "Continue",
+  "noAccountNeeded": "No account or password needed",
+  "noPasswordNote": "No password. This phone is remembered — next time the app opens straight to your stay.",
+  "ownerLine": "Owner: {name}",
+  "@ownerLine": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "studentRegistration": "Student registration",
+  "registrationSteps": "Verify mobile · details · room · pay",
+  "registrationStepsBooked": "Verify mobile · details · pay",
+  "alreadyJoinedFind": "Already joined? Find my booking",
+  "welcomeTitle": "Welcome",
+  "welcomeExclaim": "Welcome!",
+  "invitedBy": "You've been invited by {owner} to join",
+  "@invitedBy": {
+    "placeholders": {
+      "owner": {
+        "type": "String"
+      }
+    }
+  },
+  "invitedPlain": "You've been invited to join",
+  "ownerDot": "Owner · {name}",
+  "@ownerDot": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "bedHeldForYou": "Room {room} · Bed {bed} held for you",
+  "@bedHeldForYou": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      }
+    }
+  },
+  "getAppToContinue": "Get the app to continue",
+  "opensOnHostel": "After installing, the app opens on {hostel}",
+  "@opensOnHostel": {
+    "placeholders": {
+      "hostel": {
+        "type": "String"
+      }
+    }
+  },
+  "detailsEntryTitle": "Student Details Entry",
+  "addPhotoOptional": "Add photo (optional)",
+  "saveAndSubmit": "Save & Submit",
+  "enabledWhenFilled": "Enabled when all * fields are filled",
+  "studentProfileTitle": "Student Profile",
+  "saveSelectRoom": "Save & Select Room",
+  "roomSelectionTitle": "Room Selection",
+  "floorAll": "Floor: All",
+  "sharingAll": "Sharing: All",
+  "legendAvailable": "Available",
+  "legendSelected": "Selected",
+  "legendFull": "Full",
+  "feeDetailsRoom": "Fee details · Room {room}",
+  "@feeDetailsRoom": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "rentMonthly": "Rent (monthly)",
+  "depositOneTime": "Security deposit (one-time)",
+  "firstPayment": "First payment",
+  "everyMonthAfter": "Every month after",
+  "agreeTermsPolicies": "I agree to the Terms & Conditions and hostel policies",
+  "confirmProceedPayment": "Confirm and proceed to payment",
+  "pickRoomFirst": "Pick a room",
+  "chooseBed": "Choose a bed",
+  "choosePaymentTitle": "Choose payment",
+  "bookingSubmittedTitle": "Booking submitted",
+  "bookingSubmittedText": "The owner will check your payment and confirm. You'll get a notification.",
+  "dateOfJoining": "Date of joining",
+  "nextFeeDate": "Next fee date",
+  "goToHome": "Go to Home",
+  "feesAndLateFee": "Fees & late fee",
+  "onTime": "On time",
+  "allPaid": "All paid",
+  "nextFeeOn": "next fee {date}",
+  "@nextFeeOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "lateFeePolicyLine": "Late fee: {amount} per day after due date",
+  "@lateFeePolicyLine": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "noLateFeePolicy": "No late fee at this hostel",
+  "zeroDaysLate": "0 days late",
+  "payNowNoLateFee": "Pay now · no late fee",
+  "payAmountShort": "Pay {amount}",
+  "@payAmountShort": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "tabFees": "Fees",
+  "tabMyRoom": "My room",
+  "sinceDate": "since {date}",
+  "@sinceDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiLabel": "Wi-Fi",
+  "wifiPassword": "Password",
+  "noWifiYet": "Your hostel hasn't added Wi-Fi details yet.",
+  "wifiAfterApproval": "Wi-Fi details show here once the owner confirms your booking.",
+  "waitingOwnerConfirm": "Waiting for the owner to confirm your booking",
+  "leavingHostel": "Leaving the hostel",
+  "paymentHistory": "Payment history",
+  "myDetailsTitle": "My details",
+  "wholeHostel": "Whole hostel",
+  "ownerWifiTitle": "Wi-Fi for students",
+  "ownerWifiHelp": "One network for the whole hostel, or one per floor. Students see it on My room after you confirm them.",
+  "addWifi": "Add Wi-Fi",
+  "wifiName": "Wi-Fi name",
+  "wifiSaved": "Wi-Fi saved",
+  "noWifiOwner": "No Wi-Fi added yet",
+  "stayingSince": "Staying",
+  "detailsLocked": "To change your details, ask your hostel owner.",
+  "joiningSection": "Joining",
+  "yourRoom": "Your room",
+  "roomNoShort": "Room no.",
+  "groundShort": "Ground",
+  "monthlyPrice": "Monthly price",
+  "depositIfAny": "Deposit (empty if none)",
+  "roomEntryHelp": "Your owner will check these room details.",
+  "roomLockedHelp": "Your hostel has already set this room. Details filled in for you.",
+  "tapToAdd": "Tap to add",
+  "tapToChange": "Tap to change",
+  "idStoredSafely": "Stored safely. Only the last 4 digits are shown.",
+  "collegeOffice": "College / office",
+  "collegeOfficeAddress": "College / office address",
+  "noneText": "None",
+  "roomFloorSharing": "Room {room} · {floor} · {sharing}",
+  "@roomFloorSharing": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "floor": {
+        "type": "String"
+      },
+      "sharing": {
+        "type": "String"
+      }
+    }
+  },
+  "saveAndContinue": "Save & continue",
+  "errRoomEntryOff": "Your hostel now lists its rooms. Go back and pick your room from the list.",
+  "errBadRoomNo": "Enter your room number.",
+  "errBadFloor": "Choose your floor.",
+  "errBadSharing": "Choose how many beds are in your room.",
+  "errRoomFullTyped": "That room is already full. Check the room number or ask your hostel.",
+  "errTooManyTenants": "More tenants stay in this room than that. Choose a bigger sharing.",
+  "tenantRoomsTitle": "Rooms from tenants",
+  "tenantRoomsSection": "Rooms entered by tenants",
+  "tenantRoomsSummary": "{floors} floors · {rooms} rooms · {tenants} tenants entered",
+  "@tenantRoomsSummary": {
+    "placeholders": {
+      "floors": {
+        "type": "String"
+      },
+      "rooms": {
+        "type": "String"
+      },
+      "tenants": {
+        "type": "String"
+      }
+    }
+  },
+  "roomsEnteredN": "{count} rooms entered",
+  "@roomsEnteredN": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "statusConfirmed": "Confirmed",
+  "statusOk": "OK",
+  "statusFix": "Fix",
+  "countConfirmed": "{count} confirmed",
+  "@countConfirmed": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "countToConfirm": "{count} to confirm",
+  "@countToConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "countToFix": "{count} to fix",
+  "@countToFix": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "colFilled": "Filled",
+  "colPrice": "Price",
+  "colRooms": "Rooms",
+  "colPricePerBed": "Price / bed",
+  "confirmCorrectRooms": "Confirm all correct rooms ({count})",
+  "@confirmCorrectRooms": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "roomsConfirmedN": "{count} rooms confirmed and added to Rooms & beds",
+  "@roomsConfirmedN": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "whatTenantsEntered": "What tenants entered",
+  "correctDetails": "Correct details",
+  "saveRoomN": "Save room {room}",
+  "@saveRoomN": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "roomConfirmedN": "Room {room} confirmed",
+  "@roomConfirmedN": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "tenantRoomsHelp": "Tap any room to correct it. Tenants are not told about your corrections. Confirmed rooms are added to Rooms & beds, so new students can pick them.",
+  "tenantRoomsEmptyTitle": "No rooms entered yet",
+  "tenantRoomsEmptyMessage": "When tenants scan your join QR, the floor, room, sharing and price they type show up here for you to check.",
+  "priceBySharing": "Price by sharing",
+  "priceBySharingSub": "Prices and deposits tenants entered",
+  "priceBySharingHelp": "Built from what tenants entered. Tap a row to change it.",
+  "nPrices": "{count} prices",
+  "@nPrices": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "nDeposits": "{count} deposits",
+  "@nDeposits": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "useTenantPrices": "Use these prices for new joiners",
+  "useTenantPricesHelp": "New students see these prices when booking a free bed.",
+  "tenantRoomEntry": "Tenants enter room details",
+  "tenantRoomEntryHelp": "Turn off once all your rooms are set.",
+  "setsPriceForSharing": "Sets the price and deposit for every {count}-sharing room.",
+  "@setsPriceForSharing": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "priceSaved": "Price saved",
+  "errGroundRoomNeedsG": "Ground floor rooms are G + a number, like G1.",
+  "errGRoomNotGround": "G rooms are on the ground floor. Pick Ground or change the room number.",
+  "errGroundRoom": "Ground floor rooms are G + a number (like G1). Rooms on other floors can't start with G.",
+  "chooseYourFloor": "Choose your floor",
+  "tapToAddNextFloor": "Tap to add next floor",
+  "sectionYou": "You",
+  "privacyAccount": "Privacy & account",
+  "rentPerBedTitle": "Sharing + price",
+  "advanceDeposit": "Advance / deposit",
+  "depositPaidOnce": "Paid once when the student joins",
+  "rentDate": "Rent date",
+  "joiningDateShort": "Joining date",
+  "fixedDateShort": "Fixed date",
+  "joinedExample": "Joined on 12th → pays every 12th.",
+  "noticeBeforeLeaving": "Notice before leaving",
+  "wifiTitle": "Wi-Fi",
+  "typePassword": "Type password",
+  "wifiPasswordFor": "Wi-Fi password · {floor}",
+  "@wifiPasswordFor": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiStudentsSee": "Students on this floor see it",
+  "whichFloor": "Which floor?",
+  "allowDayWise": "Allow day-wise stay",
+  "perDayPrice": "{amount} per day",
+  "@perDayPrice": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "pricePerDay": "Price per day",
+  "pricePerDayHelp": "For students staying a few days",
+  "extraCharges": "Extra charges",
+  "chargeElectricity": "Electricity bill",
+  "chargeLaundry": "Laundry",
+  "perUnit": "/ unit",
+  "perMonth": "/ month",
+  "oneTime": "one time",
+  "everyMonth": "Every month",
+  "oneTimeOption": "One time",
+  "electricityRateHelp": "Price per electricity unit",
+  "addAnotherCharge": "Add another charge",
+  "nameOfService": "Name of service",
+  "amountLabel": "Amount",
+  "howOften": "How often",
+  "saveCharge": "Save charge",
+  "chargesHelp": "Off = included in the rent. On = added to the student's bill.",
+  "payGpay": "Google Pay",
+  "payPhonepe": "PhonePe",
+  "payPaytm": "Paytm",
+  "turnOnUpiFirst": "Turn on UPI first.",
+  "upiAppsUseThis": "Google Pay, PhonePe and Paytm use this too",
+  "payOnlineRazorpay": "Pay online (Razorpay)",
+  "phase2": "Phase 2",
+  "cashMessageLabel": "Message students see when they pick Cash",
+  "changePassword": "Change password",
+  "typeAgain": "Type it again",
+  "passwordsDiffer": "The two passwords are different.",
+  "addSharing": "Add sharing",
+  "sharingSheetHelp": "How many beds in the room?",
+  "sharingAlreadyPriced": "{n} sharing already has a price.",
+  "@sharingAlreadyPriced": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "rentForSharing": "Rent for {n} sharing",
+  "@rentForSharing": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "perBedEveryMonth": "Per bed, every month. New price is for new students.",
+  "pickSharing": "Pick the sharing.",
+  "pickFloor": "Pick a floor.",
+  "enterServiceName": "Enter the name of the service.",
+  "cantBeEmpty": "This can't be empty.",
+  "payWithApp": "Pay with {app}",
+  "@payWithApp": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "changeRoomDetails": "Change room details",
+  "typeRoomNumber": "Type room number, e.g. 204",
+  "noRoomFound": "No room \"{room}\". Check the number.",
+  "@noRoomFound": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      }
+    }
+  },
+  "roomStayingFree": "{floor} · {staying} staying · {free} beds free",
+  "@roomStayingFree": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      },
+      "staying": {
+        "type": "String"
+      },
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "saveWifi": "Save Wi-Fi",
+  "typeRoomFirst": "Type a room number first.",
+  "rentNotSet": "not set",
+  "roomStayingRent": "{floor} · {staying} staying · rent {rent} (from Sharing + price)",
+  "@roomStayingRent": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      },
+      "staying": {
+        "type": "String"
+      },
+      "rent": {
+        "type": "String"
+      }
+    }
+  },
+  "addSharingPriceFirst": "Add a price for {n} sharing in \"Sharing + price\" first.",
+  "@addSharingPriceFirst": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "priceLabel": "Price",
+  "addOneSharing": "Add at least one sharing with its price.",
+  "pickSharingEveryLine": "Pick the sharing for every line.",
+  "priceEveryLine": "Enter the price for every line.",
+  "sameSharingTwice": "The same sharing is there twice.",
+  "sameFloorTwice": "The same floor is there twice.",
+  "rentPerBedSaved": "Sharing + price saved.",
+  "wifiFloorExists": "{floor} already has Wi-Fi.",
+  "@wifiFloorExists": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "fixedFeeDate": "Your fixed fee date is {day} of every month",
+  "@fixedFeeDate": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "roomChangedSharing": "Room {room} changed: {from} sharing → {to} sharing",
+  "@roomChangedSharing": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingRemoved": "{n} sharing removed.",
+  "@sharingRemoved": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "wifiRemoved": "Wi-Fi for {floor} removed.",
+  "@wifiRemoved": {
+    "placeholders": {
+      "floor": {
+        "type": "String"
+      }
+    }
+  },
+  "changesSaved": "Your changes are saved",
+  "roomSharingTo": "Room {room} · {from} sharing to {to} sharing",
+  "@roomSharingTo": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "nSharings": "Sharings: {n}",
+  "@nSharings": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "nFloors": "Floors: {n}",
+  "@nFloors": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "changeLabel": "Change",
+  "addLine": "Add",
+  "saveChangesQ": "Save changes?",
+  "saveChangesText": "You changed something in this setting.",
+  "dontSave": "Don't save",
+  "noticeDaysRange": "Enter 1 to 90 days.",
+  "noticePeriodHelp": "Days a student must tell you before leaving",
+  "orTypeDays": "Or type days",
+  "typeDaysHint": "e.g. 7, 14, 21 days",
+  "noticeStudentsTold": "All students get a message and their screen shows the new notice period.",
+  "pickDate": "Pick a date.",
+  "yesChange": "Yes, change",
+  "feeDateFromTo": "Fee date: {from} → {to}",
+  "@feeDateFromTo": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "feeDateChangeInfo": "{n} students are staying. They pay on the new date from now. The days in between are added once to their next fee (fee ÷ days in that month × days). If the new date is earlier, those days are taken off once. After that, the same fee every month. They all get a message.",
+  "@feeDateChangeInfo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "addRoomPriceNote": "Filled from Sharing + price.",
+  "addRoomNewPriceNote": "This sharing has no price yet; it is also added to Sharing + price.",
+  "roomSharingFromTo": "Room {room} · {from} sharing → {to} sharing",
+  "@roomSharingFromTo": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "sharingChangeInfo": "{n} students stay in this room. Their fee becomes {rent} (was {old}) from their next fee date. They all get a message.",
+  "@sharingChangeInfo": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      },
+      "rent": {
+        "type": "String"
+      },
+      "old": {
+        "type": "String"
+      }
+    }
+  },
+  "msgSharingTitle": "Your room becomes {to} sharing",
+  "@msgSharingTitle": {
+    "placeholders": {
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "msgSharingBody": "Room {room} · from {date} your fee is {rent} a month (was {old}).",
+  "@msgSharingBody": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "rent": {
+        "type": "String"
+      },
+      "old": {
+        "type": "String"
+      }
+    }
+  },
+  "msgFeeDateTitle": "Fee date changed to {day}",
+  "@msgFeeDateTitle": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "msgFeeDateJoiningTitle": "Fee date is now your joining date",
+  "msgFeeDateMore": "Next fee on {date}: {rent} + {extra} for {days} extra days (once) = {total}.",
+  "@msgFeeDateMore": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "rent": {
+        "type": "String"
+      },
+      "extra": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "msgFeeDateLess": "Next fee on {date}: {rent} − {less} for {days} days already paid (once) = {total}.",
+  "@msgFeeDateLess": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "rent": {
+        "type": "String"
+      },
+      "less": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "msgNoticeTitle": "Notice period is now {days} days",
+  "@msgNoticeTitle": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "msgNoticeBody": "Tell the owner {days} days before you leave.",
+  "@msgNoticeBody": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "floorNumberHelp": "Type the floor: 0 = Ground, 1, 2, 3 … up to 50.",
+  "rentFromPrices": "Rent {amount} per bed (from Sharing + price)",
+  "@rentFromPrices": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "staffTitle": "Staff",
+  "staffHelp": "Tap a name to see and change his duties.",
+  "noStaffYet": "No staff added yet.",
+  "staffLoginNote": "Staff log in with their own mobile number. Logging in for staff comes in the next update; their duties are saved now.",
+  "jobManager": "Manager / warden",
+  "jobCleaning": "Cleaning",
+  "jobSecurity": "Security",
+  "jobCook": "Cook",
+  "jobOther": "Other",
+  "jobLabel": "Job",
+  "jobOtherLabel": "Which job?",
+  "jobDutiesNote": "Duties are ticked for the job; change them after adding.",
+  "dutiesInApp": "Duties in the app",
+  "dutyRent": "Collect rent · record cash",
+  "dutyApprove": "Approve new students",
+  "dutyRooms": "Rooms & beds (book, free a bed)",
+  "dutyComplaints": "Complaints · reply & close",
+  "dutyLeaving": "Leaving notices · check-out",
+  "dutyReminders": "Send rent reminders",
+  "dutyReports": "See reports & money totals",
+  "dutyIds": "See ID proofs",
+  "dutyChecklist": "Daily jobs checklist",
+  "addDutyButton": "Add any duty you wish",
+  "addDuty": "Add a duty",
+  "addDutyHelp": "Type the duty in your own words.",
+  "addDutyHint": "e.g. Buy vegetables",
+  "dailyJobs": "Daily jobs (checklist)",
+  "dailyJobsHelp": "What must be done every day, e.g. Lock gate 10:30 PM · Check water tank",
+  "dailyJobsHint": "Tap to add daily jobs",
+  "removeStaff": "Remove staff",
+  "removeStaffQ": "Remove {name}?",
+  "@removeStaffQ": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removeStaffText": "They can no longer use the app for this hostel.",
+  "staffRemoved": "{name} removed.",
+  "@staffRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addStaffMember": "Add staff member",
+  "addAndInvite": "Add & send SMS invite",
+  "staffAdded": "{name} added.",
+  "@staffAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "staffInviteSms": "Hi {name}, you are added as staff at {hostel} on the My Hostel app. Install My Hostel and log in with this mobile number.",
+  "@staffInviteSms": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "hostel": {
+        "type": "String"
+      }
+    }
+  },
+  "errName": "Enter the name.",
+  "errStaffExists": "This mobile number is already in your staff.",
+  "colName": "Name",
+  "colRent": "Rent",
+  "colDue": "Due",
+  "colStatus": "Status",
+  "dueShort": "Due",
+  "totalRow": "Total",
+  "pendingAmount": "{amount} due",
+  "@pendingAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "allRentCollectedFor": "All rent collected for {period}",
+  "@allRentCollectedFor": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      }
+    }
+  },
+  "openLabel": "Open",
+  "pdfKeepHelp": "To print or keep",
+  "excelAccountantHelp": "To edit or for accountant",
+  "reportSavedNote": "The file is saved on this phone and opens straight away.",
+  "homePayments": "Payments",
+  "homeMonthLabel": "Month · {month}",
+  "@homeMonthLabel": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "ofAmount": "of {amount}",
+  "@ofAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "amountLeft": "{amount} left",
+  "@amountLeft": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "notPaidTodayNames": "{names} not paid today",
+  "@notPaidTodayNames": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "everyonePaidToday": "Everyone due today has paid",
+  "remind": "Remind",
+  "needsYourAction": "Needs your action",
+  "confirmPayments": "Confirm payments",
+  "approveJoins": "Approve joins",
+  "complaints": "Complaints",
+  "inRoomsTotal": "In {rooms} rooms · {total} total",
+  "@inRoomsTotal": {
+    "placeholders": {
+      "rooms": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "bedsTotalCount": "{total} beds total",
+  "@bedsTotalCount": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "hideAmounts": "Hide amounts",
+  "showAmounts": "Show amounts",
+  "scanToJoin": "Scan this QR to join",
+  "cashReceived": "Cash received",
+  "cashPlanToday": "Cash · paying today",
+  "cashPlanTomorrow": "Cash · paying tomorrow",
+  "cashPlanPaid": "Cash · says paid",
+  "checkCashPlanHelp": "The student told you about this cash. Tap Cash received when you have the money.",
+  "perDayCharge": "/ day",
+  "everyDay": "Per day",
+  "instantOnlinePay": "Instant online pay",
+  "instantOnlineHelp": "UPI, card and netbanking through Razorpay – confirmed instantly. Needs a Razorpay account. Off = students don't see this option.",
+  "lateFeeAfterDate": "Charged for each day after the fee date. Students see it only when it is on.",
+  "typeAmount": "Type amount",
+  "addRule": "Add",
+  "typeRuleHint": "Type a rule",
+  "editRule": "Edit rule",
+  "noRulesYet": "No rules yet. Type one below or tap a quick rule.",
+  "quickRules": "Quick add",
+  "ruleGate": "Gate closes at 10:30 PM",
+  "ruleNoSmoking": "No smoking or alcohol",
+  "ruleNoGuests": "No guests in rooms after 8 PM",
+  "ruleKeepClean": "Keep your room and common areas clean",
+  "ruleSaveWater": "Switch off lights and taps when not in use",
+  "ruleNoNoise": "No loud music after 10 PM",
+  "noticeToStudents": "Notice to students",
+  "studentsSeeNow": "Students see now",
+  "noNoticeNow": "No notice now. Students see: \"Keep the hostel clean – Please keep your room and common areas clean.\"",
+  "newNotice": "New notice",
+  "noticeWater": "Water off",
+  "noticePower": "Power cut",
+  "noticeCleaning": "Cleaning",
+  "noticeRent": "Rent reminder",
+  "noticeFood": "Food timing",
+  "noticeOther": "Other",
+  "noticeWaterBody": "Water will be off tomorrow from 10 AM to 1 PM.",
+  "noticePowerBody": "Power cut today from 2 PM to 5 PM. Charge your phones.",
+  "noticeCleaningBody": "Room cleaning on Sunday morning. Please keep your things in your cupboard.",
+  "noticeRentBody": "Please pay this month's rent by the fee date.",
+  "noticeFoodBody": "Dinner time is now 7:30 PM to 9:30 PM.",
+  "headingLabel": "Heading",
+  "messageLabel": "Message",
+  "sendToAllStudents": "Send to all students",
+  "removeNoticeQ": "Remove this notice?",
+  "removeNoticeText": "Students will no longer see it.",
+  "remove": "Remove",
+  "pickNoticeType": "Pick a type, then change the words if you want",
+  "noticePosted": "Sent – students see it on their Home",
+  "filterOpen": "Open",
+  "filterInProgress": "In progress",
+  "filterResolved": "Resolved",
+  "startWork": "Start work",
+  "replyAction": "Reply",
+  "markResolved": "Mark resolved",
+  "replyToName": "Reply to {name}",
+  "@replyToName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "replyHint": "Plumber coming at 5 PM",
+  "replySent": "Reply sent – the student sees it in Report issue",
+  "complaintUpdated": "Updated – the student is told",
+  "noComplaintsTitle": "No complaints",
+  "noComplaintsText": "When a student reports an issue, it shows here.",
+  "yourReply": "Your reply: {text}",
+  "@yourReply": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "issueWater": "Water",
+  "issueElectricity": "Electricity",
+  "issueWifi": "Wi-Fi",
+  "issueCleaning": "Cleaning",
+  "issueFood": "Food",
+  "issueFurniture": "Furniture",
+  "issuePlumbing": "Plumbing",
+  "issueSecurity": "Security",
+  "issueOther": "Other",
+  "addHostelPhoto": "Add hostel photo",
+  "changeHostelPhoto": "Change hostel photo",
+  "removePhoto": "Remove photo",
+  "hostelPhotoHelp": "Students see this photo on your hostel page. The short name is shown until you add one.",
+  "photoSavedMsg": "Photo saved",
+  "photoRemovedMsg": "Photo removed",
+  "stTabIssue": "Report issue",
+  "stReportTitle": "Report an issue",
+  "stReportHelp": "The owner gets it straight away.",
+  "stIssueHint": "What is the problem? Where exactly?",
+  "stSendToOwner": "Send to owner",
+  "stDescribeProblem": "Please describe the problem.",
+  "stIssueSent": "Sent to owner.",
+  "stMyIssues": "My issues",
+  "stNoIssuesTitle": "No issues reported",
+  "stNoIssuesText": "Issues you send appear here with their status.",
+  "stNewUpdate": "NEW UPDATE · tap to mark read",
+  "stOwnerReply": "Owner: {reply}",
+  "@stOwnerReply": {
+    "placeholders": {
+      "reply": {
+        "type": "String"
+      }
+    }
+  },
+  "stFeeNext": "Next fee · due {date}",
+  "@stFeeNext": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stFeeNextToday": "Next fee · due today",
+  "stFeePartPaid": "Part paid · rest due {date}",
+  "@stFeePartPaid": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stFeeOverdue": "Overdue · due {date}",
+  "@stFeeOverdue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stFeeDue": "Fee due · {date}",
+  "@stFeeDue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stFeePaidLabel": "Fee paid ✓",
+  "stDaysLeft": "{days} days left",
+  "@stDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "stDaysLeftLate": "{days} days left · then +{amount}/day",
+  "@stDaysLeftLate": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stPayToday": "Pay today",
+  "stPleasePayNow": "Please pay now",
+  "stDaysLatePerDay": "{days} days late · {amount}/day",
+  "@stDaysLatePerDay": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stCashTodayTold": "Cash today · owner told",
+  "stCashTomorrowTold": "Cash tomorrow · owner told",
+  "stCashPaidWaiting": "Cash paid · waiting for owner",
+  "stPaymentChecking": "{amount} sent · owner is checking",
+  "@stPaymentChecking": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stNextFeeOnTime": "Next fee on {date} · paid on time ★",
+  "@stNextFeeOnTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stPay": "Pay",
+  "stReceipt": "Receipt",
+  "stLateFeeLine": "late fee {amount}",
+  "@stLateFeeLine": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stRentLine": "Rent {amount}",
+  "@stRentLine": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stSponsored": "SPONSORED · near you",
+  "stAdSpace": "Ad space",
+  "stAdSpaceHelp": "Local shops can advertise here – shown to students near this hostel.",
+  "stCallShop": "Call",
+  "stOpenOffer": "Open",
+  "stNoticeHeading": "Notice",
+  "stNewTag": "NEW",
+  "stDefaultNoticeTitle": "Keep the hostel clean",
+  "stDefaultNoticeBody": "Please keep your room and common areas clean.",
+  "stPasswordLine": "Password: {password}",
+  "@stPasswordLine": {
+    "placeholders": {
+      "password": {
+        "type": "String"
+      }
+    }
+  },
+  "stWifiCopied": "Wi-Fi password copied",
+  "stLeaving": "Leaving?",
+  "stGiveNoticeBy": "Give notice by {date}",
+  "@stGiveNoticeBy": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stDepositBackArrow": "→ deposit back",
+  "stNoticeDatePassed": "Notice date {date} passed",
+  "@stNoticeDatePassed": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stNoRefundArrow": "→ no refund",
+  "stDepositBackAmount": "{amount} deposit back",
+  "@stDepositBackAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stShortNoticeNoRefund": "Short notice – no refund",
+  "stCancelNotice": "Cancel notice",
+  "stCancelNoticeQ": "Cancel your notice?",
+  "stCancelNoticeText": "You will keep staying. The owner is told.",
+  "stYesStaying": "Yes, I am staying",
+  "stNoticeCancelled": "Notice cancelled.",
+  "stLeaveOnQ": "Leave on {date}?",
+  "@stLeaveOnQ": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stOnTimeNoticeText": "You leave on your next fee date. Your deposit comes back.",
+  "stLateNoticeText": "Notice date {deadline} has passed. If you leave on {date}: no refund (deposit and rent).",
+  "@stLateNoticeText": {
+    "placeholders": {
+      "deadline": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stGiveNoticeNoRefund": "Give notice – no refund",
+  "stYouHaveLeft": "You have left",
+  "stLeftOn": "Left on {date}",
+  "@stLeftOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "stThanksStaying": "Thank you for staying with us.",
+  "stTotal": "Total",
+  "stPaidSoFar": "Paid so far",
+  "stStillDue": "Still due",
+  "stPayOnline": "Pay {amount} online",
+  "@stPayOnline": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stPayByCash": "Pay by cash",
+  "stNothingToPay": "Nothing to pay right now. We will remind you 3 days before the next rent day.",
+  "stOptionsAccepted": "Options your hostel accepts",
+  "stInstantTitle": "UPI, card or netbanking",
+  "stReceiptAtOnce": "Receipt at once",
+  "stInstant": "Instant",
+  "stOnlineSoon": "Instant online pay is coming soon. Please use a UPI app or bank transfer.",
+  "stAnyUpiApp": "Any UPI app",
+  "stToUpi": "To {upi}",
+  "@stToUpi": {
+    "placeholders": {
+      "upi": {
+        "type": "String"
+      }
+    }
+  },
+  "stOpenAppFilled": "Open {app} – amount filled",
+  "@stOpenAppFilled": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "stDonePaid": "Done – I have paid",
+  "stPaidToldOwner": "Payment sent. The owner is told and checks it.",
+  "stEnterAmountNow": "Enter the amount you are paying now.",
+  "stHowMuchNow": "How much now?",
+  "stFullAmount": "Full {amount}",
+  "@stFullAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stClearBill": "Clear this bill",
+  "stPartNow": "Part now",
+  "stPayRestLater": "Pay the rest later",
+  "stAmountNow": "Amount now",
+  "stStillDueAfter": "{amount} still due after this – pay it later by cash or online.",
+  "@stStillDueAfter": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stPayInCash": "Pay in cash",
+  "stCashDefault": "Pay cash to the owner at the hostel office.",
+  "stWhenPay": "When will you pay?",
+  "stToday": "Today",
+  "stTomorrow": "Tomorrow",
+  "stAlreadyPaid": "Already paid",
+  "stTellOwner": "Tell owner",
+  "stTellOwnerPaid": "Tell owner I paid",
+  "stOwnerToldCash": "Owner is told. He marks it paid when he gets the cash.",
+  "stCashSheetFoot": "The owner gets an alert. Your receipt comes here after he confirms.",
+  "stCashPaidTold": "Cash paid – owner told",
+  "stCashTodayPlan": "Paying cash today – owner told",
+  "stCashTomorrowPlan": "Paying cash tomorrow – owner told",
+  "stWaitingConfirm": "Waiting for the owner to confirm {amount}",
+  "@stWaitingConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stChange": "Change",
+  "stCashCancelled": "Cancelled. The owner is told.",
+  "stMsgPaymentNotReceived": "Owner did not get your {method} payment of {amount}. Please check and pay again.",
+  "@stMsgPaymentNotReceived": {
+    "placeholders": {
+      "method": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stMsgCashNotReceived": "Owner says he did not get your cash of {amount}. Pay at the office and tell him again.",
+  "@stMsgCashNotReceived": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stMsgPaymentReceived": "Payment of {amount} received. Receipt is in Payment history.",
+  "@stMsgPaymentReceived": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "stMyStay": "MY STAY",
+  "stAppGroup": "APP",
+  "stMyRoomSub": "Floor, joining date, rent, deposit",
+  "stRulesCount": "{count} rules",
+  "@stRulesCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "stMyDetailsSub": "Parent, address, ID",
+  "stPrivacyTerms": "Privacy & terms",
+  "stPrivacySub": "How your data is kept safe",
+  "stDeleteMyData": "Delete my data",
+  "stDeleteSub": "After you leave the hostel",
+  "stDeleteText": "Your details and ID copy will be deleted after your stay is closed and dues are settled. The owner keeps payment records as required by law.",
+  "stSendRequest": "Send request",
+  "stMobile": "Mobile",
+  "enterOtpTitle": "Enter the OTP",
+  "tooManyTriesTitle": "Too many tries",
+  "otpLockedTryAgain": "Too many wrong tries. Try again in {time}.",
+  "@otpLockedTryAgain": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "rhLocation": "Location",
+  "rhAtHostelQ": "Are you at the hostel now?",
+  "rhPhoneSaves": "Your phone can save its exact location",
+  "rhYesUse": "Yes, use my location",
+  "rhFillsArea": "Fills area and pincode",
+  "rhNoType": "No, type address",
+  "rhAreaCityPin": "Area, city, pincode",
+  "rhFinding": "Finding your location…",
+  "rhSaved": "Exact location saved",
+  "rhChange": "Change",
+  "rhStreetOpt": "House / street (optional)",
+  "rhArea": "Area",
+  "rhUseLink": "At the hostel now? Use my location",
+  "rhLaterNote": "Photos, rooms and rules can be added later. Students type their own room when they join.",
+  "rhCreate": "Create hostel",
+  "rhNeedLocation": "Add the hostel location.",
+  "rhNoPermission": "Location is off for this app. Please type the address.",
+  "rhPinDigits": "Pincode has 6 digits.",
+  "rhPinOptional": "Pincode (optional)",
+  "confirmBooking": "Confirm booking",
+  "rejectBookingTitle": "Reject {name}?",
+  "@rejectBookingTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "rejectBedFree": "Room {room} · Bed {bed} becomes free for others again",
+  "@rejectBedFree": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      }
+    }
+  },
+  "rejectReasonLabel": "REASON (PICK ONE)",
+  "rejectReasonWrongDetails": "Wrong details",
+  "rejectReasonAadhaar": "Aadhaar not clear",
+  "rejectReasonPayment": "Payment not received",
+  "rejectReasonBed": "Bed not available",
+  "rejectReasonOther": "Other",
+  "rejectReasonHelp": "The student sees this reason. Return the money they paid ({amount}).",
+  "@rejectReasonHelp": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingRejectedToast": "{name} is told. Bed is free again.",
+  "@bookingRejectedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingConfirmedToast": "{name} booked. Room {room} · Bed {bed}.",
+  "@bookingConfirmedToast": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "room": {
+        "type": "String"
+      },
+      "bed": {
+        "type": "String"
+      }
+    }
+  },
+  "checksAllPassed": "All {n} checks passed",
+  "@checksAllPassed": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "checksSomeFailed": "{failed} of {n} checks failed",
+  "@checksSomeFailed": {
+    "placeholders": {
+      "failed": {
+        "type": "String"
+      },
+      "n": {
+        "type": "String"
+      }
+    }
+  }
+}
