@@ -1,6 +1,6 @@
 # My Hostel – pre-launch tracking
 
-Last updated: 27 Oct 2026. Keep this file up to date: tick a box when an item is done, and add the date.
+Last updated: 2 Nov 2026. Keep this file up to date: tick a box when an item is done, and add the date.
 
 ---
 
@@ -30,6 +30,20 @@ Status: `[ ]` open · `[x]` done
 ### Before the Play Store launch
 - [ ] **6. SMS (OTP) template.**
   Ask the SMS provider for a DLT template that works with Android auto-read (the SMS must end with the app's 11-character code). Do not ask for the `READ_SMS` permission; Google Play rejects most apps that use it.
+
+### Police portal (separate repo `PM_Repo`) – before police use it
+Database scripts are run and the portal works locally (tested 2 Nov 2026 with officer `HYD-SI-2043`).
+- [ ] **7. Fix officer `HYD-SI-2041`.**
+  Its mobile (ending 077) is an owner account that owns a hostel. Logging in as 2041 would replace that owner's app password.
+  Change its number or delete it: `update public.police_officers set phone = '+91XXXXXXXXXX' where officer_id = 'HYD-SI-2041';`
+- [ ] **8. Real SMS.**
+  Turn off `SMS_DEV_MODE` and add the MSG91 keys + DLT templates in Supabase (same as item 6). Until then, OTPs only appear in the `sms-hook` logs.
+- [ ] **9. Put the portal online (Vercel).**
+  Deploy `PM_Repo` with the three keys from `.env.local`, so police use a web address instead of the developer's computer.
+- [ ] **10. Real station names for each officer.**
+  `update public.police_officers set station = '…' where officer_id = '…';`
+- [ ] **11. Police approval and legal check.**
+  Written approval from the police department, and a lawyer's check of police access to student data (privacy policy / DPDP), before any officer uses it.
 
 ---
 
