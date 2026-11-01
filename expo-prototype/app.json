@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "My Hostel (prototype)",
+    "slug": "my-hostel-prototype",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F2F5F9",
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EE5F52"
+      }
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EE5F52"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

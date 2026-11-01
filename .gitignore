@@ -16,6 +16,8 @@ build/
 *.aab
 node_modules/
 apk/
-expo-prototype/
 prototype/
 app/lib/l10n/gen/
+# Expo prototype dependencies
+expo-prototype/node_modules/
+expo-prototype/.expo/
