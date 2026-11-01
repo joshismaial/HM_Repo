@@ -44,6 +44,8 @@ Database scripts are run and the portal works locally (tested 2 Nov 2026 with of
   `update public.police_officers set station = '…' where officer_id = '…';`
 - [ ] **11. Police approval and legal check.**
   Written approval from the police department, and a lawyer's check of police access to student data (privacy policy / DPDP), before any officer uses it.
+- [ ] **12. Run `supabase/04_notices.sql` on the live database.**
+  Not run yet (checked 2 Nov 2026). Without it the notice board, recent searches and the "Help hostels join My Hostel" banner stay empty.
 
 ---
 
